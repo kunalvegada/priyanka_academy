@@ -9,9 +9,11 @@ body {
 header {
     background-color: #333;
     color: #fff;
-    padding: 1rem 0;
+    padding: 0.5rem 0; /* Reduced padding */
     text-align: center;
     position: relative;
+    height: 175px; /* Set a fixed height */
+    line-height: 50px; /* Center text vertically */
 }
 
 .logo {
@@ -46,7 +48,7 @@ nav ul li a {
 }
 
 section {
-    padding: 2rem;
+    padding: 1rem;
     text-align: center;
 }
 
@@ -88,3 +90,11 @@ form button {
 form button:hover {
     background-color: #555;
 }
+
+between-sections {
+    display: block;
+    margin: 20px auto; /* Center the image and add some space around it */
+    max-width: 120px; /* Ensure the image is responsive */
+	max-height: 120px; /* Ensure the image is responsive */
+}
+
