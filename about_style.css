@@ -1,0 +1,58 @@
+/* CSS Centering Code with the ID Selector "#center" */ 
+
+#center {
+
+text-align: center;
+    }
+
+#bold{
+	
+font-family: 'Lexend Deca', sans-serif; 
+  color:     
+	#FF671F, #FFFFFF, #046A38, #06038D;
+}
+
+
+#text {
+    font-size: 30px;
+    color: blue;
+    line-height: 40px;
+    
+    border-top: 4px solid #FF8915; /* Saffron */
+    background: white; /* White */
+    background: linear-gradient(to bottom, #ff9933 0%, #ff9933 33%, #fff 33%, #fff 66%, #138808 66%, #138808 100%); /* Green */
+}
+
+
+.india {
+    position: relative;
+    height: auto; /* Adjust as needed */
+    width: auto; /* Adjust as needed */
+    border-top: 4px solid #FF8915; /* Saffron */
+    background: white; /* White */
+    background: linear-gradient(to bottom, #ff9933 0%, #ff9933 33%, #fff 33%, #fff 66%, #138808 66%, #138808 100%); /* Green */
+    display: flex; /* Center the wheel symbol */
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+}
+
+.india::before {
+    content: "✺"; /* Wheel symbol */
+    font-size: 48px;
+    line-height: 42px;
+    text-align: center;
+    font-weight: 100;
+    height: calc(100% / 3);
+    color: #000080; /* Navy blue */
+}
+
+
+
+
+
+
+
+
+
+
+
