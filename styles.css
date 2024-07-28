@@ -11,7 +11,7 @@ header {
     padding: 0.5rem 0; /* Reduced padding */
     text-align: center;
     position: relative;
-    height: 175px; /* Set a fixed height */
+    height: auto; /* Set a fixed height */
     line-height: 50px; /* Center text vertically */
 }
 
