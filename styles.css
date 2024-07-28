@@ -44,7 +44,7 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
-	font-size: 55px;
+	font-size: 50x;
 	
 }
 
@@ -58,7 +58,7 @@ footer {
     color: #fff;
     text-align: center;
     padding: 1rem 0;
-    position: fixed;
+     position: relative;
     width: 100%;
     bottom: 0;
 } 
