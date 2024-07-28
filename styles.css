@@ -71,8 +71,8 @@ footer {
     padding: 0.5rem 0; /* Reduced padding */
     text-align: center;
     position: relative;
-    height: auto; /* Set a fixed height */
-    line-height: auto; /* Center text vertically */
+    height: 175px; /* Set a fixed height */
+    line-height: 50px; /* Center text vertically */
 	}
 }
 
