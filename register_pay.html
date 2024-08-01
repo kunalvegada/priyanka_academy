@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registration Form</title>
-    <style>
+	<title>Registration Pay Page</title>
+	
+	<style>
         body {
             font-family: Arial, sans-serif;
             background-color: #f3f3f3;
@@ -54,39 +55,23 @@
             font-size: 16px;
         }
     </style>
-</head>
-<body>
-    <div class="main">
-        <h2>Registration Form</h2>
+	
+	</head>
+	<body>
+	
+	<div class="main">
+	
+<h1> Please Pay Registration Fee To Proceed to Your Registration !!</h1>
+
+<a href="pay.html">
+    <button>Pay Registration Fee</button>
+</a>
 		
-		
-        <form action="submit_form.php" method="POST">
-		
-            <label for="first">First Name:</label>
-            <input type="text" id="first" name="first" required>
-            <label for="last">Last Name:</label>
-            <input type="text" id="last" name="last" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            
-            <label for="mobile">Contact Number:</label>
-            <input type="text" id="mobile" name="mobile" maxlength="10" required>
-            <label for="purpose">Purpose for Registration:</label>
-            <input type="text" id="purpose" name="purpose" required>
-            <label for="country">Country:</label>
-            <select id="country" name="country" required>
-                <option value="usa">USA</option>
-                <option value="uk">UK</option>
-                <option value="india">India</option>
-                <!-- Add more country options as needed -->
-            </select>
-			
-			
-			
-			
-			
-            <button type="submit">Submit</button>
-        </form>
-    </div>
-</body>
-</html>
+	
+	
+	</div>	
+	
+	
+	
+	</body>
+	</html>
