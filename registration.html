@@ -60,12 +60,13 @@
         <h2>Registration Form</h2>
 		
 		
-        <form action="submit_form.php" method="POST">
+		<form action="https://formspree.io/f/xdkngwld" method="POST">
+
 		
             <label for="first">First Name:</label>
-            <input type="text" id="first" name="first" required>
+            <input type="text" id="first" name="Name" required>
             <label for="last">Last Name:</label>
-            <input type="text" id="last" name="last" required>
+            <input type="text" id="last" name="SurName" required>
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required>
             
@@ -73,19 +74,16 @@
             <input type="text" id="mobile" name="mobile" maxlength="10" required>
             <label for="purpose">Purpose for Registration:</label>
             <input type="text" id="purpose" name="purpose" required>
-            <label for="country">Country:</label>
-            <select id="country" name="country" required>
-                <option value="usa">USA</option>
-                <option value="uk">UK</option>
-                <option value="india">India</option>
-                <!-- Add more country options as needed -->
-            </select>
+            
+			<label for="country">Country:</label>
+			<input type="text" id="country" name="country" required>
+           
 			
 			
 			
 			
 			
-            <button type="submit">Submit</button>
+            <button type="submit" >Submit</button>
         </form>
     </div>
 </body>
