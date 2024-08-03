@@ -30,12 +30,23 @@
 
 
 
+<script>
+    function sendAndClear(event) {
+        event.preventDefault(); // Prevent default form submission
+        const form = event.target;
+        // Send data to the server (you can use AJAX or fetch here)
+        // Once the data is sent successfully, clear the form fields:
+        form.reset();
+    }
+</script>
+
+
 
 		
 		
 		<div class="container">
         <h2 id="center">Contact Us</h2>
-        <form action="submit_form.php" method="post">
+        <form action="https://formspree.io/f/xvgparep" method="post" onsubmit="sendAndClear(event)">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
             
