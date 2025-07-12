@@ -1,6 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <!-- ✅ This makes your site responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Priyanka's Music Academy</title>
+
+  <!-- ✅ Add a link to your CSS file -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- ✅ Basic CSS for quick testing (remove if you have styles.css) -->
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.5;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem;
+      flex-wrap: wrap;
+    }
+
+    header img {
+      height: 80px;
+      width: auto;
+    }
+
+    header h1 {
+      flex: 1 1 100%;
+      text-align: center;
+      font-size: 2rem;
+      margin: 0.5rem 0;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      padding: 0;
+      margin: 0;
+      gap: 1rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    nav ul li {
+      display: inline;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    h1, p, marquee {
+      text-align: center;
+      margin: 1rem;
+    }
+
+    marquee {
+      font-size: 1.5rem;
+    }
+
+    p {
+      font-size: 1.2rem;
+      max-width: 800px;
+      margin: 1rem auto;
+      padding: 0 1rem;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 1rem auto;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #f0f0f0;
+    }
+
+    footer nav ul {
+      justify-content: center;
+    }
+
+    @media (min-width: 768px) {
+      header {
+        flex-wrap: nowrap;
+      }
+      header h1 {
+        flex: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <a href="contact.html">
+      <img src="logo_left_con.jpeg" alt="Logo Left">
+    </a>
+
+    <h1>Priyanka's MUSIC Academy</h1>
+
+    <a href="about.html">
+      <img src="logo_right_con.jpeg" alt="Logo Right">
+    </a>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Welcome to Priyanka's Music Academy</h1>
+
+    <marquee behavior="scroll" direction="left" scrollamount="15">
+      <b>Learn both ONLINE & OFFLINE: Playing & Singing on Piano.</b>
+    </marquee>
+
+    <p>
+      <b>Learn Indian classical, semi-classical, bhajans, ghazals, garba, Gujarati, Hindi, Marathi folk songs, and Bollywood songs playing and singing on piano.</b>
+    </p>
+
+    <h2>
+      Click here to <a href="register_pay.html">Register</a>.
+    </h2>
+
+    <!-- Images -->
+    <img src="slogan_1.jpeg" alt="Slogan 1">
+    <img src="slogan_2.jpg" alt="Slogan 2">
+    <img src="slogan_3.jpeg" alt="Slogan 3">
+    <img src="slogan_4.jpeg" alt="Slogan 4">
+  </main>
+
+  <footer>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <p>© 2024-2026 Priyanka's Music Academy. All rights reserved.</p>
+    <p>Website developer credit: <b>Kunal Vegada</b></p>
+  </footer>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
     
 	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
