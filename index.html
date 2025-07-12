@@ -1,41 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <!-- ✅ This makes your site responsive -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Priyanka's Music Academy</title>
-
-  <!-- ✅ Add a link to your CSS file -->
-  <link rel="stylesheet" href="styles.css">
-
-  <!-- ✅ Basic CSS for quick testing (remove if you have styles.css) -->
   <style>
     body {
       margin: 0;
-      padding: 0;
       font-family: Arial, sans-serif;
       line-height: 1.5;
     }
 
     header {
       display: flex;
+      flex-wrap: wrap;
       align-items: center;
       justify-content: space-between;
+      background: #333;
+      color: #fff;
       padding: 1rem;
-      flex-wrap: wrap;
     }
 
-    header img {
-      height: 80px;
+    header a img {
+      height: 60px;
       width: auto;
     }
 
     header h1 {
       flex: 1 1 100%;
       text-align: center;
-      font-size: 2rem;
       margin: 0.5rem 0;
+      font-size: 1.5rem;
     }
 
     nav ul {
@@ -48,43 +43,45 @@
       justify-content: center;
     }
 
-    nav ul li {
-      display: inline;
-    }
-
     nav ul li a {
+      color: #fff;
       text-decoration: none;
-      color: #333;
       font-weight: bold;
     }
 
-    h1, p, marquee {
+    main {
       text-align: center;
-      margin: 1rem;
+      padding: 1rem;
+    }
+
+    main h1 {
+      font-size: 2rem;
     }
 
     marquee {
-      font-size: 1.5rem;
+      display: block;
+      margin: 1rem auto;
+      font-size: 1.2rem;
     }
 
     p {
-      font-size: 1.2rem;
       max-width: 800px;
       margin: 1rem auto;
       padding: 0 1rem;
     }
 
     img {
-      max-width: 100%;
+      max-width: 90%;
       height: auto;
       display: block;
       margin: 1rem auto;
     }
 
     footer {
+      background: #333;
+      color: #fff;
       text-align: center;
       padding: 1rem;
-      background: #f0f0f0;
     }
 
     footer nav ul {
@@ -101,17 +98,16 @@
     }
   </style>
 </head>
-
 <body>
   <header>
     <a href="contact.html">
-      <img src="logo_left_con.jpeg" alt="Logo Left">
+      <img src="logo_left_con.jpeg" alt="Logo Left" />
     </a>
 
     <h1>Priyanka's MUSIC Academy</h1>
 
     <a href="about.html">
-      <img src="logo_right_con.jpeg" alt="Logo Right">
+      <img src="logo_right_con.jpeg" alt="Logo Right" />
     </a>
 
     <nav>
@@ -126,23 +122,24 @@
   <main>
     <h1>Welcome to Priyanka's Music Academy</h1>
 
-    <marquee behavior="scroll" direction="left" scrollamount="15">
-      <b>Learn both ONLINE & OFFLINE: Playing & Singing on Piano.</b>
+    <marquee behavior="scroll" direction="left" scrollamount="10">
+      Learn both ONLINE & OFFLINE: Playing & Singing on Piano.
     </marquee>
 
     <p>
-      <b>Learn Indian classical, semi-classical, bhajans, ghazals, garba, Gujarati, Hindi, Marathi folk songs, and Bollywood songs playing and singing on piano.</b>
+      Learn Indian classical, semi-classical, bhajans, ghazals, garba, Gujarati,
+      Hindi, Marathi folk songs, and Bollywood songs playing and singing on
+      piano.
     </p>
 
     <h2>
       Click here to <a href="register_pay.html">Register</a>.
     </h2>
 
-    <!-- Images -->
-    <img src="slogan_1.jpeg" alt="Slogan 1">
-    <img src="slogan_2.jpg" alt="Slogan 2">
-    <img src="slogan_3.jpeg" alt="Slogan 3">
-    <img src="slogan_4.jpeg" alt="Slogan 4">
+    <img src="slogan_1.jpeg" alt="Slogan 1" />
+    <img src="slogan_2.jpg" alt="Slogan 2" />
+    <img src="slogan_3.jpeg" alt="Slogan 3" />
+    <img src="slogan_4.jpeg" alt="Slogan 4" />
   </main>
 
   <footer>
@@ -157,68 +154,4 @@
     <p>Website developer credit: <b>Kunal Vegada</b></p>
   </footer>
 </body>
-</html><!DOCTYPE html>
-<html lang="en">
-<head>
-    
-	<meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Music Academy</title>
-    <link rel="stylesheet" href="styles.css">
-	
-</head>
-
-
-	<header>
-	
-		<a href="contact.html"> <img src="logo_left_con.jpeg" alt="Logo 1" class="logo left" style="max-width:100%; height:auto;" > </a>
-		<h1 style="font-size:auto;">Priyanka's MUSIC Academy</h1>
-		<a href="about.html"> <img src="logo_right_con.jpeg" alt="Logo 2" class="logo right" style="max-width:100%; height:auto;"> </a>
-		
-		<nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-
-            </ul>
-        </nav>
-    </header>
-	
-<body>
-
-
-		<h1 style="text-align: center;" style="font-size:50px;"> <i>Welcome to Priyanka's Music Academy </i> </h1>
-		<marquee behavior="scroll" direction="left" scrollamount="15" style="font-size:35px;"><b>Learn both ONLINE & OFFLINE : Playing & Singing on Piano.</b></marquee> 
-		<p style="font-size:50px;"><b>Learn Indian classical, semi-classical, bhajans, ghazals, garba, Gujarati, Hindi, Marathi folk songs, and Bollywood songs playing and singing on piano.</b></p> 
-	
-		<h1 style="text-align: center;" style="font-size:25px;"> <b> Click here to  <a href="register_pay.html" target="_self"> Register.</a></b></h1>
-		 
-	
-	<!-- Add your image here -->
- <img src="slogan_1.jpeg" alt="slogan 1"  style="max-width:100%; height:auto;">
- <img src="slogan_2.jpg"  alt="slogan 2"  style="max-width:100%; height:auto;">
- <img src="slogan_3.jpeg" alt="slogan 3" style="max-width:100%; height:auto;">
- <img src="slogan_4.jpeg" alt="slogan 4"  style="max-width:100%; height:auto;">
- 
-
-
- <footer>
-		 <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-
-            </ul>
-        </nav>
- 
-         <p>© 2024-2026 Priyanka's Music Academy. All rights reserved.</p>
-		website developer credit: <b> Kunal Vegada </b>
-		
-    </footer>
-	
-	 </body>
- 
-
 </html>
